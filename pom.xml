@@ -13,6 +13,7 @@
         <module>shop-product-server</module>
         <module>shop-order-api</module>
         <module>shop-order-server</module>
+        <module>shop-gateway</module>
     </modules>
 
     <parent>

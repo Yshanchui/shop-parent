@@ -8,3 +8,6 @@ spring:
     url: jdbc:mysql://mysql.orb.local:3306/shop_order?serverTimezone=UTC&usrUnicode=true&characterEncoding=utf-8&useSSL=true
     username: root
     password: root
+feign:
+  sentinel:
+    enable: true
