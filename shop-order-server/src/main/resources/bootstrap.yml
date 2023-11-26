@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos.orb.local:8848
+      config:
+        server-addr: nacos.orb.local:8848
+        file-extension: yml
+  profiles:
+    active: dev
